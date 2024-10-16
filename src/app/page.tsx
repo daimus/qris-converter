@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Converter from "@/app/converter";
 import {Github} from "lucide-react";
 

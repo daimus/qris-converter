@@ -4,7 +4,7 @@ import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} f
 import {Label} from "@/components/ui/label";
 import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {Switch} from "@/components/ui/switch";
 import {qrisConverter} from "@/lib/qris-converter";
 import {
