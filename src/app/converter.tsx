@@ -26,7 +26,7 @@ export default function Converter (){
     const [fee, setFee] = useState(0);
     const [qrisResult, setQrisResult] = useState<undefined | string>(undefined);
 
-    const handleFeeTypeChange = (val) => {
+    const handleFeeTypeChange = (val : boolean) => {
         setFeeType(val ? "rupiah" : "percent")
     }
 
